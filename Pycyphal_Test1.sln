@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36603.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Pycyphal_Test1", "Pycyphal_Test1\Pycyphal_Test1.pyproj", "{A7697255-5F52-4914-BED9-20ECBF758D96}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7697255-5F52-4914-BED9-20ECBF758D96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7697255-5F52-4914-BED9-20ECBF758D96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DFCE94BC-6AFF-448A-B8E4-C2C37CC90E27}
+	EndGlobalSection
+EndGlobal
