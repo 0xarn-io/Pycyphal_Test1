@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>a7697255-5f52-4914-bed9-20ecbf758d96</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Pycyphal_Test1.py</StartupFile>
+    <StartupFile>psu_node.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
