@@ -20,3 +20,18 @@ python3 -m nunavut \
 # Export the path
 export PYTHONPATH="$HOME/.cyphal/dsdl:$PYTHONPATH"
 python3 -c "import uavcan; import reg; print('✅ DSDL OK')"
+
+# Yakut Settings
+nano ~/.yakut.yaml
+
+transport:
+  can:
+    media: socketcan
+    interface: can0
+    mtu: 8
+    local_node_id: 127
+
+# Export the path & reload
+export PYTHONPATH="$HOME/.cyphal/dsdl:$PYTHONPATH"
+source ~/.bashrc
+python3 -c "import uavcan, reg; print('✅ DSDL OK ->', uavcan.__path__)"
