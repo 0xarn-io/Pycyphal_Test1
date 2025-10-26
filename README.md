@@ -35,3 +35,8 @@ transport:
 export PYTHONPATH="$HOME/.cyphal/dsdl:$PYTHONPATH"
 source ~/.bashrc
 python3 -c "import uavcan, reg; print('✅ DSDL OK ->', uavcan.__path__)"
+
+# activate venv
+cd ~/yc
+source bin/activate
+
